@@ -7,77 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>Robo Ai</title>
-    
-    <style>
-      .transparent-button {
-        width: 260px;
-        height: 56px;
-        border-radius: 8px;
-        border: 2px solid #FFE52E;
-        background: transparent;
-        color: #FFE52E;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-      }
-    
-      .faq-section {
-        margin-top: 20px; /* Adjust the margin as needed */
-      }
-    
-      .card {
-       
-        background-color: white;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the box shadow as needed */
-        margin-bottom: 15px; /* Adjust the margin as needed */
-      }
-    
-      .card-header {
-        background-color: white;
-        border-bottom: 1px solid #dee2e6; /* Add a border between card header and body */
-      }
-    
-      .card-header h5 {
-        margin: 0;
-      }
-    
-      .card-header button {
-        height: 100px;
-    font-family: 'Manrope', sans-serif;
-    font-size: 28px;
-    font-weight: 800;
-    line-height: 36px; /* Adjust the line-height to make the button taller */
-    letter-spacing: 0em;
-    text-align: center; /* Center the text in the button */
-    color: #000; /* Set your desired text color */
-}
-.faq-section .card-header button::after {
-    content: '+';
-    color: #FE8616;
-    font-family: 'Manrope', sans-serif;
-    font-size: 55.059px;
-    font-weight: 800;
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.card-body {
-    color: #242121;
-    text-align: justify; /* Use justify to enable text justification */
-    font-family: 'Manrope', sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 36px;
-}
-    </style>
-    
-
   </head>
+  <style>
+   
+  </style>
   <body>
+    <!-- header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <a class="navbar-brand" href="#">
         <img src="../assets/nav_logo.svg" alt="Your Logo" height="30">
@@ -98,183 +35,374 @@
           </li>
         </ul>
       </div>
-    </nav>    
-    <div class="frame">
-      <div class="div">
-        <div class="overlap-group">
-          <img class="group" src="https://c.animaapp.com/AOHMYzqZ/img/group-1205.svg" />
-          <img class="untitled" src="https://c.animaapp.com/AOHMYzqZ/img/untitled-1-1.png" />
-          <img class="dust-roboai" src="https://c.animaapp.com/AOHMYzqZ/img/dust-roboai-1.png" />
-          <img class="titanium-spott" src="https://c.animaapp.com/AOHMYzqZ/img/titanium-spott-1.svg" />
-          <img class="img" src="https://c.animaapp.com/AOHMYzqZ/img/group-865.svg" />
-          <img
-            class="step-into-the-future"
-            src="https://c.animaapp.com/AOHMYzqZ/img/step-into-the-future-of-robotics-and-ai-with.png"
-          />
-          <img
-            class="a-day-industrial"
-            src="https://c.animaapp.com/AOHMYzqZ/img/a-30-day-industrial-training-workshop-on-robotics-and-ai-to-futu.svg"
-          />
-          <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc4iRVfo7cwfpj_yXkqktybzbUCQQcJGDz9Umym_CQVVrgPQA/viewform"><img class="group-2" src="https://c.animaapp.com/AOHMYzqZ/img/group-1207@2x.png" /></a>
+    </nav>  
+    <!-- page   -->
+    <div>
+      <div class="frame">
+        <div class="div">
+          <div class="overlap-group">
+            <img class="group" src="https://c.animaapp.com/AOHMYzqZ/img/group-1205.svg" />
+            <img class="untitled" src="https://c.animaapp.com/AOHMYzqZ/img/untitled-1-1.png" />
+            <img class="dust-roboai" src="https://c.animaapp.com/AOHMYzqZ/img/dust-roboai-1.png" />
+            <img class="titanium-spott" src="https://c.animaapp.com/AOHMYzqZ/img/titanium-spott-1.svg" />
+            <img class="img" src="https://c.animaapp.com/AOHMYzqZ/img/group-865.svg" />
+            <img
+              class="step-into-the-future"
+              src="https://c.animaapp.com/AOHMYzqZ/img/step-into-the-future-of-robotics-and-ai-with.png"
+            />
+            <img
+              class="a-day-industrial"
+              src="https://c.animaapp.com/AOHMYzqZ/img/a-30-day-industrial-training-workshop-on-robotics-and-ai-to-futu.svg"
+            />
+            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc4iRVfo7cwfpj_yXkqktybzbUCQQcJGDz9Umym_CQVVrgPQA/viewform"><img class="group-2" src="https://c.animaapp.com/AOHMYzqZ/img/group-1207@2x.png" /></a>
+            
+            
+            <a id="downloadLink" href="#" onclick="downloadPdf()">
+              <img class="group-3" src="https://c.animaapp.com/AOHMYzqZ/img/group-1210@2x.png" alt="Download PDF">
+          </a>
           
-          
-          <a id="downloadLink" href="#" onclick="downloadPdf()">
-            <img class="group-3" src="https://c.animaapp.com/AOHMYzqZ/img/group-1210@2x.png" alt="Download PDF">
-        </a>
-        
-          <img class="group-6" src="https://c.animaapp.com/AOHMYzqZ/img/group-1282.png" />
-           <a href="https://pages.razorpay.com/website2">
-            <img class="group-4" src="https://c.animaapp.com/AOHMYzqZ/img/group-1208@2x.png" />
-           </a> 
-         
-          <img class="group-7" src="https://c.animaapp.com/AOHMYzqZ/img/group-1287.png" />
-        </div>
-        <div class="overlap">
-          <img class="why-should-you" src="https://c.animaapp.com/AOHMYzqZ/img/why-should-you-enroll-.png" />
-          <img class="mask-group" src="https://c.animaapp.com/AOHMYzqZ/img/mask-group.png" />
-          <img class="group-8" src="https://c.animaapp.com/AOHMYzqZ/img/group-1252.png" />
-        </div>
-        <img class="group-9" src="https://c.animaapp.com/AOHMYzqZ/img/group-1234@2x.png" />
-        <img class="group-10" src="https://c.animaapp.com/AOHMYzqZ/img/group-1253.png" />
-
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4iRVfo7cwfpj_yXkqktybzbUCQQcJGDz9Umym_CQVVrgPQA/viewform">
-          <img class="group-11" src="https://c.animaapp.com/AOHMYzqZ/img/group-1207@2x.png" />
-        </a>
-
-       <a href="https://pages.razorpay.com/website2">
-        <img class="group-12" src="https://c.animaapp.com/AOHMYzqZ/img/group-1301@2x.png" />
-       </a>
-        <div class="vector-wrapper"><img class="vector" src="https://c.animaapp.com/AOHMYzqZ/img/vector-1.svg" /></div>
-        <div class="overlap-2">
-
-          <!-- dropdown -->
-
-          <div class="container mt-5">
-  <div class="dropdown">
-    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Select an option
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <a class="dropdown-item" href="#">Option 1</a>
-      <a class="dropdown-item" href="#">Option 2</a>
-      <a class="dropdown-item" href="#">Option 3</a>
-    </div>
+            <img class="group-6" src="https://c.animaapp.com/AOHMYzqZ/img/group-1282.png" />
+             <a href="https://pages.razorpay.com/website2">
+              <img class="group-4" src="https://c.animaapp.com/AOHMYzqZ/img/group-1208@2x.png" />
+             </a> 
+           
+            <img class="group-7" src="https://c.animaapp.com/AOHMYzqZ/img/group-1287.png" />
+          </div>
+          <div class="overlap">
+            <img class="why-should-you" src="https://c.animaapp.com/AOHMYzqZ/img/why-should-you-enroll-.png" />
+            <img class="mask-group" src="https://c.animaapp.com/AOHMYzqZ/img/mask-group.png" />
+            <img class="group-8" src="https://c.animaapp.com/AOHMYzqZ/img/group-1252.png" />
+          </div>
+          <img class="group-9" src="https://c.animaapp.com/AOHMYzqZ/img/group-1234@2x.png" />
+          <img class="group-10" src="https://c.animaapp.com/AOHMYzqZ/img/group-1253.png" />
+  
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4iRVfo7cwfpj_yXkqktybzbUCQQcJGDz9Umym_CQVVrgPQA/viewform">
+            <img class="group-11" src="https://c.animaapp.com/AOHMYzqZ/img/group-1207@2x.png" />
+          </a>
+  
+         <a href="https://pages.razorpay.com/website2">
+          <img class="group-12" src="https://c.animaapp.com/AOHMYzqZ/img/group-1301@2x.png" />
+         </a>
+          <div class="vector-wrapper"><img class="vector" src="https://c.animaapp.com/AOHMYzqZ/img/vector-1.svg" /></div>
+          <div class="overlap-2">
+  
+            <!-- dropdown -->
+  
+            <div class="container mt-5">
+    
   </div>
-</div>
-
-          <img class="timeline" src="https://c.animaapp.com/AOHMYzqZ/img/timeline.png" />
-          <img class="rectangle" src="https://c.animaapp.com/AOHMYzqZ/img/rectangle-305.svg" />
-          <img class="group-13" src="https://c.animaapp.com/AOHMYzqZ/img/group-1302.png" />
-          <img class="group-14" src="https://c.animaapp.com/AOHMYzqZ/img/group-1288.png" />
-          <img class="group-15" src="https://c.animaapp.com/AOHMYzqZ/img/group-1289.png" />
-          <img class="group-16" src="https://c.animaapp.com/AOHMYzqZ/img/group-1264.png" />
-          <img class="vector-2" src="https://c.animaapp.com/AOHMYzqZ/img/vector.svg" />
-        </div>
-        <div class="overlap-3">
-          <img class="group-17" src="https://c.animaapp.com/AOHMYzqZ/img/group-1270.png" />
-          <img class="group-18" src="https://c.animaapp.com/AOHMYzqZ/img/group-1292.png" />
-        </div>
-        <img class="previous-stories" src="https://c.animaapp.com/AOHMYzqZ/img/previous-stories.png" />
-        <!-- <img class="hear-from-our" src="https://c.animaapp.com/AOHMYzqZ/img/hear-from-our-mentees.png" /> -->
-        <div class="overlap-4">
-          <img class="group-19" src="https://c.animaapp.com/AOHMYzqZ/img/group-1303.png" />
-          <img class="testi" src="https://c.animaapp.com/AOHMYzqZ/img/testi-1.png" />
-        </div>
-        <!-- <div class="overlap-5">
-          <img class="testi-2" src="https://c.animaapp.com/AOHMYzqZ/img/testi.png" />
-          <img class="group-20" src="https://c.animaapp.com/AOHMYzqZ/img/group-1295.png" />
-        </div> -->
-        <div class="overlap-5">
-           <!-- FAQ -->
-<br>
-<br>
-<br>
-</br>
-
-        <div class="faq-section" style="text-align: left;">
-          <!-- FAQ Card 1 -->
-          <div class="card">
-            <div class="card-header" id="faqHeading1">
-              <h5 class="mb-0" style="margin-left: 36px;">
-                <button class="btn btn-link" data-toggle="collapse" data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                  Who can participate in this RoboAI  workshop?
-                </button>
-              </h5>
+  
+            <img class="timeline" src="https://c.animaapp.com/AOHMYzqZ/img/timeline.png" />
+            <br/>
+            <br/>
+            <br/>
+            <div class="faq-section" style="text-align: left; margin-right: 5%;">
+              <!-- FAQ Card 1 -->
+              <div class="card">
+                <div class="card-header" id="faqHeading1">
+                    <h5 class="mb-0" style="margin-left: 36px;">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                            Mechanical & Industrial Design
+                        </button>
+                    </h5>
+                </div>
+            
+                <div id="faqCollapse1" class="collapse show" aria-labelledby="faqHeading1" data-parent=".faq-section">
+                    <div class="card-body">
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="color: #242121;
+                                        leading-trim: both;
+                                        margin-left:50px;
+                                        text-edge: cap;
+                                        font-family: Manrope;
+                                        font-size: 28px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 40px;
+                                        width: 571.513px;
+                                        margin-top:15px">
+                                Robot Mathematics
+                            <hr/>
+                                
+                            </li>
+                            <li style="color: #242121;
+                                        leading-trim: both;
+                                        margin-left:50px;
+                                        text-edge: cap;
+                                        font-family: Manrope;
+                                        font-size: 28px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 40px;
+                                        width: 571.513px;
+                                        margin-top:15px">
+                                Mechanical CAD
+                            <hr/>
+                                
+                            </li>
+                            
+                            <li style="color: #242121;
+                                        leading-trim: both;
+                                        margin-left:50px;
+                                        text-edge: cap;
+                                        font-family: Manrope;
+                                        font-size: 28px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 40px;
+                                        width: 571.513px;
+                                        margin-top:15px">
+                                Robot Matrices
+                            <hr/>
+                                
+                            </li>
+                            <li style="color: #242121;
+                                        leading-trim: both;
+                                        margin-left:50px;
+                                        text-edge: cap;
+                                        font-family: Manrope;
+                                        font-size: 28px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 40px;
+                                        width: 571.513px;
+                                        margin-top:15px">
+                                Analysis and Prototyping
+                            
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        
-            <div id="faqCollapse1" class="collapse show" aria-labelledby="faqHeading1" data-parent=".faq-section">
-              <div class="card-body">
-                Our Robopack workshop is open to anyone with a passion for robotics and a desire to learn. Participants can be students, working Professionals, or Individuals interested in the field of Robopack.
+            
+            
+              <!-- FAQ Card 2 -->
+              <div class="card">
+                <div class="card-header" id="faqHeading2">
+                  <h5 class="mb-0" style="margin-left: 36px;">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                      Electronics & IOT
+                    </button>
+                  </h5>
+                </div>
+            
+                <div id="faqCollapse2" class="collapse show" aria-labelledby="faqHeading2" data-parent=".faq-section">
+                  <div class="card-body">
+                      <ul style="list-style: none; padding: 0;">
+                          <li style="color: #242121;
+                                      leading-trim: both;
+                                      margin-left:50px;
+                                      text-edge: cap;
+                                      font-family: Manrope;
+                                      font-size: 28px;
+                                      font-style: normal;
+                                      font-weight: 400;
+                                      line-height: 40px;
+                                      width: 571.513px;
+                                      margin-top:15px">
+                              Robot Mathematics
+                          <hr/>
+                              
+                          </li>
+                          <li style="color: #242121;
+                                      leading-trim: both;
+                                      margin-left:50px;
+                                      text-edge: cap;
+                                      font-family: Manrope;
+                                      font-size: 28px;
+                                      font-style: normal;
+                                      font-weight: 400;
+                                      line-height: 40px;
+                                      width: 571.513px;
+                                      margin-top:15px">
+                              Mechanical CAD
+                          <hr/>
+                              
+                          </li>
+                          
+                          <li style="color: #242121;
+                                      leading-trim: both;
+                                      margin-left:50px;
+                                      text-edge: cap;
+                                      font-family: Manrope;
+                                      font-size: 28px;
+                                      font-style: normal;
+                                      font-weight: 400;
+                                      line-height: 40px;
+                                      width: 571.513px;
+                                      margin-top:15px">
+                              Robot Matrices
+                          <hr/>
+                              
+                          </li>
+                          <li style="color: #242121;
+                                      leading-trim: both;
+                                      margin-left:50px;
+                                      text-edge: cap;
+                                      font-family: Manrope;
+                                      font-size: 28px;
+                                      font-style: normal;
+                                      font-weight: 400;
+                                      line-height: 40px;
+                                      width: 571.513px;
+                                      margin-top:15px">
+                              Analysis and Prototyping
+                          
+                              
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              </div>
+    
+    
+              <div class="card">
+                <div class="card-header" id="faqHeading2">
+                  <h5 class="mb-0" style="margin-left: 36px;">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                     ML/AI  & ROS-2
+                    </button>
+                  </h5>
+                </div>
+            
+                <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent=".faq-section">
+                  <div class="card-body">
+                    Third
+                  </div>
+                </div>
+              </div>
+    
+    
+            
+            
+              <!-- Add more FAQ cards as needed -->
+            
+            </div>
+            <!-- <img class="rectangle" src="https://c.animaapp.com/AOHMYzqZ/img/rectangle-305.svg" /> -->
+            <!-- <img class="group-13" src="https://c.animaapp.com/AOHMYzqZ/img/group-1302.png" />
+            <img class="group-14" src="https://c.animaapp.com/AOHMYzqZ/img/group-1288.png" />
+            <img class="group-15" src="https://c.animaapp.com/AOHMYzqZ/img/group-1289.png" />
+            <img class="group-16" src="https://c.animaapp.com/AOHMYzqZ/img/group-1264.png" /> -->
+            <img class="vector-2" src="https://c.animaapp.com/AOHMYzqZ/img/vector.svg" />
+          </div>
+          <div class="overlap-3" style="margin-left: 120px;">
+            <img class="group-17" src="https://c.animaapp.com/AOHMYzqZ/img/group-1270.png" />
+            <img class="group-18" src="https://c.animaapp.com/AOHMYzqZ/img/group-1292.png" />
+          </div>
+          <img class="previous-stories" src="https://c.animaapp.com/AOHMYzqZ/img/previous-stories.png" />
+          <!-- <img class="hear-from-our" src="https://c.animaapp.com/AOHMYzqZ/img/hear-from-our-mentees.png" /> -->
+          <div class="overlap-4">
+            <img class="group-19" src="https://c.animaapp.com/AOHMYzqZ/img/group-1303.png" />
+            <img class="testi" src="https://c.animaapp.com/AOHMYzqZ/img/testi-1.png" />
+          </div>
+          <!-- <div class="overlap-5">
+            <img class="testi-2" src="https://c.animaapp.com/AOHMYzqZ/img/testi.png" />
+            <img class="group-20" src="https://c.animaapp.com/AOHMYzqZ/img/group-1295.png" />
+          </div> -->
+          <div class="overlap-5">
+             <!-- FAQ -->
+  <br>
+  <br>
+  <br>
+  </br>
+  
+          <div class="faq-section" style="text-align: left;">
+            <!-- FAQ Card 1 -->
+            <div class="card">
+              <div class="card-header" id="faqHeading1">
+                <h5 class="mb-0" style="margin-left: 36px;">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                    Who can participate in this RoboAI  workshop?
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="faqCollapse1" class="collapse show" aria-labelledby="faqHeading1" data-parent=".faq-section">
+                <div class="card-body">
+                  Our Robopack workshop is open to anyone with a passion for robotics and a desire to learn. Participants can be students, working Professionals, or Individuals interested in the field of Robopack.
+                </div>
               </div>
             </div>
-          </div>
-        
-          <!-- FAQ Card 2 -->
-          <div class="card">
-            <div class="card-header" id="faqHeading2">
-              <h5 class="mb-0" style="margin-left: 36px;">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                  What materials and equipment are provided?
-                </button>
-              </h5>
-            </div>
-        
-            <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent=".faq-section">
-              <div class="card-body">
-                Our Robopack workshop is open to anyone with a passion for robotics and a desire to learn. Participants can be students, working Professionals, or Individuals interested in the field of Robopack.
+          
+            <!-- FAQ Card 2 -->
+            <div class="card">
+              <div class="card-header" id="faqHeading2">
+                <h5 class="mb-0" style="margin-left: 36px;">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                    What materials and equipment are provided?
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent=".faq-section">
+                <div class="card-body">
+                  Our Robopack workshop is open to anyone with a passion for robotics and a desire to learn. Participants can be students, working Professionals, or Individuals interested in the field of Robopack.
+                </div>
               </div>
             </div>
-          </div>
-
-
-          <div class="card">
-            <div class="card-header" id="faqHeading2">
-              <h5 class="mb-0" style="margin-left: 36px;">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                  What is the duration of the workshop?
-                </button>
-              </h5>
-            </div>
-        
-            <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent=".faq-section">
-              <div class="card-body">
-                Our Robopack workshop is open to anyone with a passion for robotics and a desire to learn. Participants can be students, working Professionals, or Individuals interested in the field of Robopack.
+  
+  
+            <div class="card">
+              <div class="card-header" id="faqHeading2">
+                <h5 class="mb-0" style="margin-left: 36px;">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                    What is the duration of the workshop?
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent=".faq-section">
+                <div class="card-body">
+                  Our Robopack workshop is open to anyone with a passion for robotics and a desire to learn. Participants can be students, working Professionals, or Individuals interested in the field of Robopack.
+                </div>
               </div>
             </div>
-          </div>
-
-
-          <div class="card">
-            <div class="card-header" id="faqHeading2">
-              <h5 class="mb-0" style="margin-left: 36px;">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                  How do I register for the RoboAI workshop?
-                </button>
-              </h5>
-            </div>
-        
-            <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent=".faq-section">
-              <div class="card-body">
-                Our Robopack workshop is open to anyone with a passion for robotics and a desire to learn. Participants can be students, working Professionals, or Individuals interested in the field of Robopack.
+  
+  
+            <div class="card">
+              <div class="card-header" id="faqHeading2">
+                <h5 class="mb-0" style="margin-left: 36px;">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                    How do I register for the RoboAI workshop?
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent=".faq-section">
+                <div class="card-body">
+                  Our Robopack workshop is open to anyone with a passion for robotics and a desire to learn. Participants can be students, working Professionals, or Individuals interested in the field of Robopack.
+                </div>
               </div>
             </div>
+          
+            <!-- Add more FAQ cards as needed -->
+          
           </div>
-        
-          <!-- Add more FAQ cards as needed -->
-        
-        </div>
-
-      
-        <img class="FA-qs" src="https://c.animaapp.com/AOHMYzqZ/img/faq-s.png" />
-
+  
+          <div>
+          <img class="FA-qs" src="https://c.animaapp.com/AOHMYzqZ/img/faq-s.png" />
+  
+           
+          </div>
+  
          
+  
+          <footer style="width: 100%; padding: 20px;text-align: center;">
+            <img src="./assets/nav_logo.svg" alt="Your Logo">
+            <br/>
+            <p>India's only startup to provide an ecosystem for core engineers</p>
+            <p style="color: #9F9F9F;
+            ">Gunesh - 8806806479(SMO Head) | Varshika - 9873044650(OutReach)</p>
+            <p>&copy; | MyEquationTM is a registered trademark under Tech Analogy Pvt Ltd. All rights reserved | ©</p>
+          </footer>
         </div>
-
-       
-
-       
       </div>
     </div>
+    
+
+    <!-- footer -->
+    
 
     <script>
       function downloadPdf() {

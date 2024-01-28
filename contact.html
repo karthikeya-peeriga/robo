@@ -3,9 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>user</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<style>
+    .faq-section .card {
+      width: 1280px;
+      height: 93px;
+      flex-shrink: 0;
+      border-radius: 6.883px;
+      border: 1.721px solid #EBEBEB;
+      background: #FFF;
+      margin-bottom: 10px; /* Optional: Add margin between accordion cards */
+      box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.05), 0px 6px 6px 0px rgba(0, 0, 0, 0.04), 0px 13px 8px 0px rgba(0, 0, 0, 0.03), 0px 24px 9px 0px rgba(0, 0, 0, 0.01), 0px 37px 10px 0px rgba(0, 0, 0, 0.00);
+    }
+
+    .faq-section .card-header {
+      cursor: pointer;
+      background-color: #FFF;
+    }
+
+    .faq-section .card-header h5 {
+      margin-left: 36px;
+      color: #000; /* Black text color for questions */
+    }
+</style>
 </head>
 <body>
-    <h1>Hello</h1>
+
+    <div class="accordion faq-section" style="text-align: left;">
+        <!-- FAQ Card 1 -->
+        <div class="card">
+          <div class="card-header" id="faqHeading1">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                Who can participate in this RoboAI workshop?
+              </button>
+            </h5>
+          </div>
+          <div id="faqCollapse1" class="collapse show" aria-labelledby="faqHeading1" data-bs-parent=".faq-section">
+            <div class="card-body">
+              Our Robopack workshop is open to anyone with a passion for robotics and a desire to learn. Participants can be students, working professionals, or individuals interested in the field of Robopack.
+            </div>
+          </div>
+        </div>
+      
+        <!-- FAQ Card 2 -->
+        <div class="card">
+          <div class="card-header" id="faqHeading2">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                What materials and equipment are provided?
+              </button>
+            </h5>
+          </div>
+          <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-bs-parent=".faq-section">
+            <div class="card-body">
+              Our Robopack workshop is open to anyone with a passion for robotics and a desire to learn. Participants can be students, working professionals, or individuals interested in the field of Robopack.
+            </div>
+          </div>
+        </div>
+      
+        <!-- FAQ Card 3 -->
+        <div class="card">
+          <div class="card-header" id="faqHeading3">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                What is the duration of the workshop?
+              </button>
+            </h5>
+          </div>
+          <div id="faqCollapse3" class="collapse" aria-labelledby="faqHeading3" data-bs-parent=".faq-section">
+            <div class="card-body">
+              Our Robopack workshop is open to anyone with a passion for robotics and a desire to learn. Participants can be students, working professionals, or individuals interested in the field of Robopack.
+            </div>
+          </div>
+        </div>
+      
+        <!-- FAQ Card 4 -->
+        <div class="card">
+          <div class="card-header" id="faqHeading4">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                How do I register for the RoboAI workshop?
+              </button>
+            </h5>
+          </div>
+          <div id="faqCollapse4" class="collapse" aria-labelledby="faqHeading4" data-bs-parent=".faq-section">
+            <div class="card-body">
+              Our Robopack workshop is open to anyone with a passion for robotics and a desire to learn. Participants can be students, working professionals, or individuals interested in the field of Robopack.
+            </div>
+          </div>
+        </div>
+      
+        <!-- Add more FAQ cards as needed -->
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>      
 </body>
 </html>

@@ -2,6 +2,98 @@ html {
     zoom: 0.8;
 
   }
+  .transparent-button {
+    width: 260px;
+    height: 56px;
+    border-radius: 8px;
+    border: 2px solid #FFE52E;
+    background: transparent;
+    color: #FFE52E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .faq-section {
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+
+  .card {
+   
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the box shadow as needed */
+    margin-bottom: 15px; /* Adjust the margin as needed */
+  }
+
+  .card-header {
+    background-color: white;
+    border-bottom: 1px solid #dee2e6; /* Add a border between card header and body */
+  }
+
+  .card-header h5 {
+    margin: 0;
+  }
+
+  .card-header button {
+    height: 100px;
+font-family: 'Manrope', sans-serif;
+font-size: 28px;
+font-weight: 800;
+line-height: 36px; /* Adjust the line-height to make the button taller */
+letter-spacing: 0em;
+text-align: center; /* Center the text in the button */
+color: #000; /* Set your desired text color */
+}
+.faq-section .card-header button::after {
+content: '+';
+color: #FE8616;
+font-family: 'Manrope', sans-serif;
+font-size: 55.059px;
+font-weight: 800;
+position: absolute;
+right: 15px;
+top: 50%;
+transform: translateY(-50%);
+}
+.card-body {
+color: #242121;
+text-align: justify; /* Use justify to enable text justification */
+font-family: 'Manrope', sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+}
+.content {
+  padding: 20px;
+}
+
+/* Your existing CSS... */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto; /* Use auto margin to push the footer to the bottom */
+  width: 100%;
+}
+
+footer img {
+  max-width: 100px; /* Adjust the max-width as needed for your logo */
+  height: auto;
+  margin-right: 10px; /* Optional: Add margin to separate logo and social icons */
+}
+
+/* Your existing CSS... */
+
+.social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 18px;
+  text-decoration: none;
+}
 
 
   .custom-link {
@@ -22,7 +114,7 @@ html {
 .frame {
     background-color: #ffffff;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: center;
     width: 100%;
   }
@@ -450,4 +542,36 @@ html {
   height: 131px;
   top: 566px;
   left: 0;
+}
+
+
+/* .timeline1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+} */
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.line {
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+
+h1{
+
 }
