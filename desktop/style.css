@@ -1,70 +1,81 @@
 html {
-    zoom: 0.8;
-
-  }
-  .transparent-button {
-    width: 260px;
-    height: 56px;
-    border-radius: 8px;
-    border: 2px solid #FFE52E;
-    background: transparent;
-    color: #FFE52E;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-  }
-
-  .faq-section {
-    margin-top: 20px; /* Adjust the margin as needed */
-  }
-
-  .card {
-   
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the box shadow as needed */
-    margin-bottom: 15px; /* Adjust the margin as needed */
-  }
-
-  .card-header {
-    background-color: white;
-    border-bottom: 1px solid #dee2e6; /* Add a border between card header and body */
-  }
-
-  .card-header h5 {
-    margin: 0;
-  }
-
-  .card-header button {
-    height: 100px;
-font-family: 'Manrope', sans-serif;
-font-size: 28px;
-font-weight: 800;
-line-height: 36px; /* Adjust the line-height to make the button taller */
-letter-spacing: 0em;
-text-align: center; /* Center the text in the button */
-color: #000; /* Set your desired text color */
+  overflow-x: hidden;
 }
+
+.transparent-button {
+  width: 260px;
+  height: 56px;
+  border-radius: 8px;
+  border: 2px solid #FFE52E;
+  background: transparent;
+  color: #FFE52E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.faq-section {
+  margin-top: 20px;
+  /* Adjust the margin as needed */
+}
+
+.card {
+
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Adjust the box shadow as needed */
+  margin-bottom: 15px;
+  /* Adjust the margin as needed */
+}
+
+.card-header {
+  background-color: white;
+  border-bottom: 1px solid #dee2e6;
+  /* Add a border between card header and body */
+}
+
+.card-header h5 {
+  margin: 0;
+}
+
+.card-header button {
+  height: 100px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 36px;
+  /* Adjust the line-height to make the button taller */
+  letter-spacing: 0em;
+  text-align: center;
+  /* Center the text in the button */
+  color: #000;
+  /* Set your desired text color */
+}
+
 .faq-section .card-header button::after {
-content: '+';
-color: #FE8616;
-font-family: 'Manrope', sans-serif;
-font-size: 55.059px;
-font-weight: 800;
-position: absolute;
-right: 15px;
-top: 50%;
-transform: translateY(-50%);
+  content: '+';
+  color: #FE8616;
+  font-family: 'Manrope', sans-serif;
+  font-size: 55.059px;
+  font-weight: 800;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
 }
+
 .card-body {
-color: #242121;
-text-align: justify; /* Use justify to enable text justification */
-font-family: 'Manrope', sans-serif;
-font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: 36px;
+  color: #242121;
+  text-align: justify;
+  /* Use justify to enable text justification */
+  font-family: 'Manrope', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
 }
+
 .content {
   padding: 20px;
 }
@@ -76,14 +87,17 @@ footer {
   color: #fff;
   padding: 10px;
   text-align: center;
-  margin-top: auto; /* Use auto margin to push the footer to the bottom */
+  margin-top: auto;
+  /* Use auto margin to push the footer to the bottom */
   width: 100%;
 }
 
 footer img {
-  max-width: 100px; /* Adjust the max-width as needed for your logo */
+  max-width: 100px;
+  /* Adjust the max-width as needed for your logo */
   height: auto;
-  margin-right: 10px; /* Optional: Add margin to separate logo and social icons */
+  margin-right: 10px;
+  /* Optional: Add margin to separate logo and social icons */
 }
 
 /* Your existing CSS... */
@@ -96,64 +110,66 @@ footer img {
 }
 
 
-  .custom-link {
-    color: #000;
-    text-align: center;
-    font-family: Manrope, sans-serif;
-    font-size: 17.198px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-right: 70px; /* Adjust the margin to add space */
-  }
-  
-  nav{
-    justify-content: space-evenly;
-  }
+.custom-link {
+  color: #000;
+  text-align: center;
+  font-family: Manrope, sans-serif;
+  font-size: 17.198px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 70px;
+  /* Adjust the margin to add space */
+}
+
+nav {
+  justify-content: space-evenly;
+}
 
 .frame {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100vh;
-  }
-  .navbar {
-    background-color: #333;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo img {
-    height: 50px; /* Adjust the height as needed */
-  }
-  
-  .nav-links a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 15px;
-  }
-  
-  .nav-links a:hover {
-    text-decoration: underline;
-  }
-  
-  .frame .div {
-    background-color: #ffffff;
-    max-width: 1920px; /* Set a maximum width */
-    width: 100%; /* Allow it to take 100% of the viewport width if the screen is smaller */
-    height: auto; /* Allow the height to adjust based on content */
-    position: relative;
-  }
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  /* Adjust the height as needed */
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.frame .div {
+  background-color: #ffffff;
+  height: auto;
+  /* Allow the height to adjust based on content */
+  position: relative;
+}
 
 .frame .overlap-group {
   position: absolute;
   width: 1920px;
+  overflow-x: hidden;
   height: 1546px;
   top: 0;
-  left: 0;
 }
 
 .frame .group {
@@ -215,6 +231,7 @@ footer img {
 }
 
 .frame .group-2 {
+  z-index: 10;
   position: absolute;
   width: 260px;
   height: 56px;
@@ -223,6 +240,7 @@ footer img {
 }
 
 .frame .group-3 {
+  z-index: 10;
   position: absolute;
   width: 317px;
   height: 56px;
@@ -231,6 +249,7 @@ footer img {
 }
 
 .frame .group-4 {
+  z-index: 10;
   position: absolute;
   width: 260px;
   height: 56px;
@@ -247,6 +266,7 @@ footer img {
 }
 
 .frame .group-6 {
+  z-index: 1;
   position: absolute;
   width: 1814px;
   height: 1088px;
@@ -489,6 +509,7 @@ footer img {
 }
 
 .frame .group-20 {
+  z-index: 10;
   position: absolute;
   width: 1531px;
   height: 22px;
@@ -572,6 +593,4 @@ footer img {
 }
 
 
-h1{
-
-}
+h1 {}

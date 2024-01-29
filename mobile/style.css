@@ -1,14 +1,23 @@
+
 .iphone-mockup {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
+}
+
+.iphone-mockup .div {
+  background-color: #ffffff;
+  height: auto;
+  /* Allow the height to adjust based on content */
+  position: relative;
 }
 
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -83,13 +92,12 @@ header {
 }
 
 
-.iphone-mockup .div {
+/* .iphone-mockup .div {
   background-color: #ffffff;
-  overflow: hidden;
   width: 430px;
   height: 8563px;
-  position: relative;
-}
+  position: absolute;
+} */
 
 .iphone-mockup .overlap {
   position: absolute;
@@ -2209,6 +2217,7 @@ header {
 }
 
 .iphone-mockup .group-72 {
+  background-color: #000000;
   position: absolute;
   width: 463px;
   height: 529px;
@@ -2323,9 +2332,13 @@ header {
   line-height: 28.8px;
 }
 
+.card-header > h2 > button{
+  color: black;
+}
+
 .iphone-mockup .item-link-services-2 {
   position: absolute;
-  width: 228px;
+  width: 200px;
   height: 55px;
   top: 0;
   left: 203px;

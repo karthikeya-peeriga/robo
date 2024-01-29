@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Your Website Title</title>
 </head>
+
 <body>
-  <div id="content"></div>
+  <iframe id="content" class="fullscreen-iframe"></iframe>
   <script src="index.js"></script>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .fullscreen-iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      /* optional: remove iframe border */
+    }
+  </style>
 </body>
+
 </html>

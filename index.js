@@ -7,14 +7,7 @@ function isMobile() {
   function loadHTML() {
     const htmlFile = isMobile() ? 'mobile/index.html' : 'desktop/index.html';
   
-    fetch(htmlFile)
-      .then(response => response.text())
-      .then(html => {
-        document.getElementById('content').innerHTML = html;
-      })
-      .catch(error => {
-        console.error('Error loading HTML:', error);
-      });
+    document.getElementById('content').src = htmlFile;
   }
   
   // Load HTML on page load
