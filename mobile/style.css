@@ -1,0 +1,2390 @@
+.iphone-mockup {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.toggle-btn {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+.enroll-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .toggle-btn {
+        display: block;
+    }
+    .card {
+      width: 372px;
+      height: 80px;
+      flex-shrink: 0;
+      margin-bottom: 10px; /* Optional: add margin for spacing between cards */
+  }
+  
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-list a {
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+}
+
+
+.iphone-mockup .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 430px;
+  height: 8563px;
+  position: relative;
+}
+
+.iphone-mockup .overlap {
+  position: absolute;
+  width: 430px;
+  height: 1219px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .mask-group {
+  position: absolute;
+  width: 430px;
+  height: 841px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .untitled {
+  position: absolute;
+  width: 422px;
+  height: 422px;
+  top: 192px;
+  left: 2px;
+  object-fit: cover;
+}
+
+.iphone-mockup .dust-roboai {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 138px;
+  left: 13px;
+  mix-blend-mode: lighten;
+  object-fit: cover;
+}
+
+.iphone-mockup .group {
+  position: absolute;
+  width: 372px;
+  height: 25px;
+  top: 14px;
+  left: 28px;
+}
+
+.iphone-mockup .layer {
+  position: absolute;
+  width: 80px;
+  height: 25px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .group-2 {
+  position: absolute;
+  width: 33px;
+  height: 20px;
+  top: 2px;
+  left: 339px;
+}
+
+.iphone-mockup .line {
+  position: absolute;
+  width: 33px;
+  height: 2px;
+  top: -2px;
+  left: 0;
+}
+
+.iphone-mockup .img {
+  position: absolute;
+  width: 33px;
+  height: 2px;
+  top: 8px;
+  left: 0;
+}
+
+.iphone-mockup .line-2 {
+  position: absolute;
+  width: 33px;
+  height: 2px;
+  top: 18px;
+  left: 0;
+}
+
+.iphone-mockup .overlap-group-wrapper {
+  position: absolute;
+  width: 287px;
+  height: 62px;
+  top: 234px;
+  left: 51px;
+}
+
+.iphone-mockup .overlap-group {
+  position: relative;
+  width: 334px;
+  height: 162px;
+  left: -47px;
+}
+
+.iphone-mockup .subtract {
+  position: absolute;
+  width: 73px;
+  height: 62px;
+  top: 0;
+  left: 261px;
+}
+
+.iphone-mockup .subtract-2 {
+  position: absolute;
+  width: 307px;
+  height: 152px;
+  top: 10px;
+  left: 0;
+}
+
+.iphone-mockup .step-into-the-future {
+  position: absolute;
+  width: 323px;
+  height: 61px;
+  top: 161px;
+  left: 52px;
+}
+
+.iphone-mockup .text-wrapper {
+  position: absolute;
+  width: 330px;
+  height: 69px;
+  top: 514px;
+  left: 50px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 500;
+  color: #ffffffcc;
+  font-size: 17.7px;
+  letter-spacing: 0;
+  line-height: 20.4px;
+}
+
+.iphone-mockup .titanium-spott {
+  position: absolute;
+  width: 342px;
+  height: 177px;
+  top: 338px;
+  left: 31px;
+}
+
+.iphone-mockup .overlap-wrapper {
+  position: absolute;
+  width: 178px;
+  height: 38px;
+  top: 604px;
+  left: 128px;
+}
+
+.iphone-mockup .div-wrapper {
+  position: relative;
+  width: 176px;
+  height: 38px;
+  border-radius: 5.41px;
+  background: linear-gradient(180deg, rgb(255, 229.1, 46.16) 0%, rgb(193.61, 169.6, 0) 100%);
+  background-image: url(https://c.animaapp.com/qsxN71Zi/img/group-1250-1@2x.png);
+  background-size: 100% 100%;
+}
+
+.iphone-mockup .text-wrapper-2 {
+  position: absolute;
+  width: 95px;
+  height: 14px;
+  top: 11px;
+  left: 40px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: #1e1e1e;
+  font-size: 16.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone-mockup .group-3 {
+  position: absolute;
+  width: 178px;
+  height: 38px;
+  top: 662px;
+  left: 128px;
+}
+
+.iphone-mockup .overlap-2 {
+  position: relative;
+  width: 176px;
+  height: 38px;
+  border-radius: 5.41px;
+}
+
+.iphone-mockup .text-wrapper-3 {
+  position: absolute;
+  width: 95px;
+  height: 14px;
+  top: 11px;
+  left: 40px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone-mockup .group-4 {
+  position: absolute;
+  width: 164px;
+  height: 55px;
+  top: 748px;
+  left: 134px;
+}
+
+.iphone-mockup .vector-wrapper {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  top: 24px;
+  left: 65px;
+  border-radius: 4.47px;
+  background: linear-gradient(180deg, rgb(255, 229.1, 46.16) 0%, rgb(193.61, 169.6, 0) 100%);
+}
+
+.iphone-mockup .vector {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 9px;
+  left: 9px;
+}
+
+.iphone-mockup .text-wrapper-4 {
+  position: absolute;
+  width: 162px;
+  height: 13px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgb(255, 229.1, 46.16) 0%, rgb(193.61, 169.6, 0) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 16.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone-mockup .mentors-from {
+  position: absolute;
+  width: 194px;
+  height: 24px;
+  top: 887px;
+  left: 118px;
+}
+
+.iphone-mockup .meet-your-mentors {
+  position: absolute;
+  width: 179px;
+  height: 71px;
+  top: 1125px;
+  left: 126px;
+}
+
+.iphone-mockup .vector-2 {
+  position: absolute;
+  width: 171px;
+  height: 5px;
+  top: 917px;
+  left: 130px;
+}
+
+.iphone-mockup .mesh {
+  position: absolute;
+  width: 430px;
+  height: 451px;
+  top: 768px;
+  left: 0;
+}
+
+.iphone-mockup .group-5 {
+  position: absolute;
+  width: 378px;
+  height: 113px;
+  top: 958px;
+  left: 29px;
+}
+
+.iphone-mockup .group-6 {
+  position: absolute;
+  width: 344px;
+  height: 44px;
+  top: 0;
+  left: 14px;
+}
+
+.iphone-mockup .group-7 {
+  position: absolute;
+  width: 159px;
+  height: 81px;
+  top: -3px;
+  left: 77px;
+}
+
+.iphone-mockup .image {
+  position: absolute;
+  width: 69px;
+  height: 81px;
+  top: -3px;
+  left: -10px;
+}
+
+.iphone-mockup .image-2 {
+  position: absolute;
+  width: 101px;
+  height: 81px;
+  top: -3px;
+  left: 253px;
+}
+
+.iphone-mockup .group-8 {
+  position: absolute;
+  width: 378px;
+  height: 44px;
+  top: 69px;
+  left: 0;
+}
+
+.iphone-mockup .mask-group-2 {
+  position: absolute;
+  width: 211px;
+  height: 81px;
+  top: -3px;
+  left: 177px;
+}
+
+.iphone-mockup .image-3 {
+  position: absolute;
+  width: 172px;
+  height: 81px;
+  top: -3px;
+  left: -10px;
+}
+
+.iphone-mockup .group-9 {
+  position: absolute;
+  width: 21px;
+  height: 55px;
+  top: 1148px;
+  left: 308px;
+}
+
+.iphone-mockup .group-wrapper {
+  position: absolute;
+  width: 219px;
+  height: 72px;
+  top: 1819px;
+  left: 105px;
+  background-image: url(https://c.animaapp.com/qsxN71Zi/img/why-should-you-enroll-.png);
+  background-size: 100% 100%;
+}
+
+.iphone-mockup .group-10 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 28px;
+  left: 178px;
+}
+
+.iphone-mockup .overlap-3 {
+  position: absolute;
+  width: 410px;
+  height: 556px;
+  top: 4104px;
+  left: 29px;
+}
+
+.iphone-mockup .vector-3 {
+  position: absolute;
+  width: 193px;
+  height: 5px;
+  top: 48px;
+  left: 89px;
+}
+
+.iphone-mockup .group-11 {
+  position: absolute;
+  width: 410px;
+  height: 556px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .timeline {
+  position: absolute;
+  width: 189px;
+  height: 34px;
+  top: 8px;
+  left: 91px;
+}
+
+.iphone-mockup .overlap-4 {
+  position: absolute;
+  width: 410px;
+  height: 284px;
+  top: 88px;
+  left: 0;
+}
+
+.iphone-mockup .group-12 {
+  position: absolute;
+  width: 410px;
+  height: 218px;
+  top: 66px;
+  left: 0;
+}
+
+.iphone-mockup .overlap-group-2 {
+  position: relative;
+  width: 375px;
+  height: 221px;
+  top: -2px;
+  left: -2px;
+  background-color: #ffffff;
+  border-radius: 6.88px;
+  border: 1.72px solid;
+  border-color: #ebebeb;
+  box-shadow: var(--icon-shadow);
+}
+
+.iphone-mockup .robot-mathematics {
+  position: absolute;
+  width: 204px;
+  height: 141px;
+  top: 48px;
+  left: 36px;
+}
+
+.iphone-mockup .line-3 {
+  position: absolute;
+  width: 316px;
+  height: 1px;
+  top: 75px;
+  left: 28px;
+  object-fit: cover;
+}
+
+.iphone-mockup .line-4 {
+  position: absolute;
+  width: 316px;
+  height: 1px;
+  top: 115px;
+  left: 28px;
+  object-fit: cover;
+}
+
+.iphone-mockup .line-5 {
+  position: absolute;
+  width: 316px;
+  height: 1px;
+  top: 157px;
+  left: 28px;
+  object-fit: cover;
+}
+
+.iphone-mockup .group-13 {
+  position: absolute;
+  width: 384px;
+  height: 80px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .overlap-5 {
+  position: relative;
+  width: 393px;
+  height: 118px;
+  top: -4px;
+  left: -11px;
+}
+
+.iphone-mockup .ellipse {
+  position: absolute;
+  width: 59px;
+  height: 54px;
+  top: 16px;
+  left: 334px;
+  background-color: #fe8616;
+  border-radius: 29.5px/27px;
+  transform: rotate(180deg);
+  filter: blur(70px);
+}
+
+.iphone-mockup .group-14 {
+  position: absolute;
+  width: 393px;
+  height: 118px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .mechanical {
+  position: absolute;
+  width: 215px;
+  height: 39px;
+  top: 27px;
+  left: 68px;
+}
+
+.iphone-mockup .vector-4 {
+  position: absolute;
+  width: 18px;
+  height: 11px;
+  top: 38px;
+  left: 30px;
+}
+
+.iphone-mockup .group-15 {
+  position: absolute;
+  width: 384px;
+  height: 80px;
+  top: 384px;
+  left: 0;
+}
+
+.iphone-mockup .electronics-IOT {
+  position: absolute;
+  width: 157px;
+  height: 14px;
+  top: 37px;
+  left: 68px;
+}
+
+.iphone-mockup .group-16 {
+  position: absolute;
+  width: 384px;
+  height: 80px;
+  top: 476px;
+  left: 0;
+}
+
+.iphone-mockup .ML-AI-ROS {
+  position: absolute;
+  width: 135px;
+  height: 14px;
+  top: 37px;
+  left: 68px;
+}
+
+.iphone-mockup .overlap-6 {
+  position: absolute;
+  width: 430px;
+  height: 869px;
+  top: 2159px;
+  left: 0;
+}
+
+.iphone-mockup .mesh-2 {
+  position: absolute;
+  width: 430px;
+  height: 532px;
+  top: 282px;
+  left: 0;
+}
+
+.iphone-mockup .group-17 {
+  position: absolute;
+  width: 299px;
+  height: 304px;
+  top: 0;
+  left: 65px;
+}
+
+.iphone-mockup .group-18 {
+  position: absolute;
+  width: 301px;
+  height: 61px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .excellent-expertise {
+  position: absolute;
+  width: 220px;
+  height: 43px;
+  top: 11px;
+  left: 69px;
+}
+
+.iphone-mockup .group-19 {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .overlap-group-3 {
+  position: relative;
+  height: 61px;
+  border-radius: 30.5px;
+}
+
+.iphone-mockup .ellipse-2 {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  top: 0;
+  left: 0;
+  background-color: #fde030;
+  border-radius: 30.5px;
+  opacity: 0.2;
+}
+
+.iphone-mockup .ellipse-3 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 8px;
+  left: 8px;
+  background-color: #fde030;
+  border-radius: 22.5px;
+  opacity: 0.3;
+}
+
+.iphone-mockup .group-20 {
+  position: absolute;
+  width: 27px;
+  height: 25px;
+  top: 18px;
+  left: 17px;
+}
+
+.iphone-mockup .group-21 {
+  position: absolute;
+  width: 301px;
+  height: 61px;
+  top: 71px;
+  left: 0;
+}
+
+.iphone-mockup .element-day-workshop {
+  position: absolute;
+  width: 176px;
+  height: 43px;
+  top: 11px;
+  left: 69px;
+}
+
+.iphone-mockup .group-22 {
+  position: absolute;
+  width: 27px;
+  height: 26px;
+  top: 17px;
+  left: 17px;
+}
+
+.iphone-mockup .group-23 {
+  position: absolute;
+  width: 301px;
+  height: 61px;
+  top: 142px;
+  left: 0;
+}
+
+.iphone-mockup .practical-projects {
+  position: absolute;
+  width: 227px;
+  height: 39px;
+  top: 11px;
+  left: 68px;
+}
+
+.iphone-mockup .group-24 {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  top: 17px;
+  left: 17px;
+}
+
+.iphone-mockup .group-25 {
+  position: absolute;
+  width: 301px;
+  height: 91px;
+  top: 213px;
+  left: 0;
+}
+
+.iphone-mockup .overlap-7 {
+  position: absolute;
+  width: 207px;
+  height: 80px;
+  top: 11px;
+  left: 69px;
+}
+
+.iphone-mockup .element-level {
+  position: absolute;
+  width: 207px;
+  height: 66px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .logo-a {
+  position: absolute;
+  width: 66px;
+  height: 37px;
+  top: 43px;
+  left: 23px;
+  object-fit: cover;
+}
+
+.iphone-mockup .group-26 {
+  position: absolute;
+  width: 27px;
+  height: 26px;
+  top: 18px;
+  left: 17px;
+}
+
+.iphone-mockup .group-27 {
+  position: absolute;
+  width: 372px;
+  height: 525px;
+  top: 344px;
+  left: 29px;
+}
+
+.iphone-mockup .group-28 {
+  position: absolute;
+  width: 374px;
+  height: 51px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .overlap-group-4 {
+  position: relative;
+  width: 189px;
+  height: 51px;
+  left: 94px;
+}
+
+.iphone-mockup .group-29 {
+  position: absolute;
+  width: 112px;
+  height: 51px;
+  top: 0;
+  left: 77px;
+}
+
+.iphone-mockup .the-perks {
+  position: absolute;
+  width: 183px;
+  height: 24px;
+  top: 13px;
+  left: 0;
+}
+
+.iphone-mockup .group-30 {
+  position: absolute;
+  width: 371px;
+  height: 282px;
+  top: 80px;
+  left: 0;
+}
+
+.iphone-mockup .overlap-8 {
+  position: relative;
+  width: 373px;
+  height: 284px;
+  top: -1px;
+  left: -1px;
+  background-color: #ffffff;
+  border-radius: 4.02px;
+  border: 1.01px solid;
+  border-color: #aaaaaa;
+}
+
+.iphone-mockup .group-31 {
+  position: relative;
+  width: 323px;
+  height: 223px;
+  top: 29px;
+  left: 25px;
+}
+
+.iphone-mockup .element-live-interactive {
+  position: absolute;
+  width: 289px;
+  height: 227px;
+  top: 1px;
+  left: 28px;
+}
+
+.iphone-mockup .vector-5 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .vector-6 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 41px;
+  left: 0;
+}
+
+.iphone-mockup .vector-7 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 82px;
+  left: 0;
+}
+
+.iphone-mockup .vector-8 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 123px;
+  left: 0;
+}
+
+.iphone-mockup .vector-9 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 165px;
+  left: 0;
+}
+
+.iphone-mockup .vector-10 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 206px;
+  left: 0;
+}
+
+.iphone-mockup .group-32 {
+  position: absolute;
+  width: 218px;
+  height: 47px;
+  top: 402px;
+  left: 78px;
+}
+
+.iphone-mockup .overlap-9 {
+  position: relative;
+  width: 216px;
+  height: 47px;
+  border-radius: 6.65px;
+  background: linear-gradient(180deg, rgb(255, 229.1, 46.16) 0%, rgb(193.61, 169.6, 0) 100%);
+  background-image: url(https://c.animaapp.com/qsxN71Zi/img/group-1250@2x.png);
+  background-size: 100% 100%;
+}
+
+.iphone-mockup .text-wrapper-5 {
+  position: absolute;
+  width: 117px;
+  height: 17px;
+  top: 14px;
+  left: 49px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: #1e1e1e;
+  font-size: 20.8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone-mockup .group-33 {
+  position: absolute;
+  width: 218px;
+  height: 47px;
+  top: 479px;
+  left: 78px;
+}
+
+.iphone-mockup .overlap-10 {
+  position: relative;
+  width: 216px;
+  height: 47px;
+  border-radius: 6.65px;
+}
+
+.iphone-mockup .text-wrapper-6 {
+  position: absolute;
+  width: 117px;
+  height: 17px;
+  top: 14px;
+  left: 49px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: #fbdc01;
+  font-size: 20.8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone-mockup .group-34 {
+  position: absolute;
+  width: 376px;
+  height: 157px;
+  top: 1244px;
+  left: 29px;
+}
+
+.iphone-mockup .overlap-11 {
+  position: relative;
+  width: 372px;
+  height: 157px;
+}
+
+.iphone-mockup .mask-group-3 {
+  position: absolute;
+  width: 372px;
+  height: 157px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .overlap-group-5 {
+  position: relative;
+  width: 375px;
+  height: 160px;
+  top: -2px;
+  left: -2px;
+  background-color: #ffffff;
+  border-radius: 6.88px;
+}
+
+.iphone-mockup .group-35 {
+  position: absolute;
+  width: 372px;
+  height: 157px;
+  top: 2px;
+  left: 2px;
+}
+
+.iphone-mockup .text-wrapper-7 {
+  position: absolute;
+  width: 175px;
+  height: 15px;
+  top: 40px;
+  left: 165px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 800;
+  color: #232020;
+  font-size: 20.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone-mockup .text-wrapper-8 {
+  position: absolute;
+  width: 194px;
+  top: 70px;
+  left: 165px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: #232020;
+  font-size: 14.6px;
+  letter-spacing: -0.44px;
+  line-height: 18px;
+}
+
+.iphone-mockup .mask-group-4 {
+  position: absolute;
+  width: 134px;
+  height: 134px;
+  top: 11px;
+  left: 10px;
+}
+
+.iphone-mockup .group-36 {
+  position: absolute;
+  width: 376px;
+  height: 157px;
+  top: 1426px;
+  left: 29px;
+}
+
+.iphone-mockup .group-37 {
+  position: absolute;
+  width: 376px;
+  height: 157px;
+  top: 1608px;
+  left: 29px;
+}
+
+.iphone-mockup .text-wrapper-9 {
+  position: absolute;
+  width: 175px;
+  height: 15px;
+  top: 31px;
+  left: 165px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 800;
+  color: #232020;
+  font-size: 20.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone-mockup .robotics-consultant {
+  position: absolute;
+  width: 194px;
+  top: 61px;
+  left: 165px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: #232020;
+  font-size: 14.6px;
+  letter-spacing: -0.44px;
+  line-height: 18px;
+}
+
+.iphone-mockup .mask-group-5 {
+  position: absolute;
+  width: 407px;
+  height: 210px;
+  top: 1938px;
+  left: 29px;
+}
+
+.iphone-mockup .overlap-12 {
+  position: relative;
+  width: 403px;
+  height: 396px;
+  top: -66px;
+  left: -2px;
+}
+
+.iphone-mockup .rectangle {
+  position: absolute;
+  width: 375px;
+  height: 194px;
+  top: 64px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 6.88px;
+  border: 1.72px solid;
+  border-color: #ebebeb;
+  box-shadow: var(--icon-shadow);
+}
+
+.iphone-mockup .group-38 {
+  position: absolute;
+  width: 401px;
+  height: 396px;
+  top: 0;
+  left: 2px;
+}
+
+.iphone-mockup .professional {
+  position: absolute;
+  width: 257px;
+  height: 43px;
+  top: 132px;
+  left: 23px;
+}
+
+.iphone-mockup .earn-a-career {
+  position: absolute;
+  width: 215px;
+  height: 33px;
+  top: 207px;
+  left: 23px;
+}
+
+.iphone-mockup .group-39 {
+  position: absolute;
+  width: 432px;
+  height: 995px;
+  top: 3069px;
+  left: 0;
+}
+
+.iphone-mockup .overlap-13 {
+  position: relative;
+  width: 430px;
+  height: 995px;
+}
+
+.iphone-mockup .group-40 {
+  position: absolute;
+  width: 430px;
+  height: 995px;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+}
+
+.iphone-mockup .overlap-group-6 {
+  position: relative;
+  height: 995px;
+}
+
+.iphone-mockup .mask-group-6 {
+  position: absolute;
+  width: 430px;
+  height: 548px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .rectangle-2 {
+  position: absolute;
+  width: 430px;
+  height: 995px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(30, 30, 30, 0) 0%,
+    rgba(0, 0, 0, 0.62) 35.44%,
+    rgba(0, 0, 0, 0.33) 41.76%,
+    rgb(0, 0, 0) 55.66%,
+    rgb(0, 0, 0) 100%
+  );
+}
+
+.iphone-mockup .why-my-equation {
+  position: absolute;
+  width: 285px;
+  height: 69px;
+  top: 245px;
+  left: 30px;
+}
+
+.iphone-mockup .ellipse-4 {
+  position: absolute;
+  width: 54px;
+  height: 71px;
+  top: 348px;
+  left: 351px;
+  background-color: #ff00d6;
+  border-radius: 27px/35.5px;
+  filter: blur(60px);
+  opacity: 0.8;
+}
+
+.iphone-mockup .ellipse-5 {
+  position: absolute;
+  width: 54px;
+  height: 71px;
+  top: 453px;
+  left: 351px;
+  background-color: #ff00d6;
+  border-radius: 27px/35.5px;
+  filter: blur(60px);
+  opacity: 0.8;
+}
+
+.iphone-mockup .ellipse-6 {
+  position: absolute;
+  width: 54px;
+  height: 71px;
+  top: 558px;
+  left: 351px;
+  background-color: #ff00d6;
+  border-radius: 27px/35.5px;
+  filter: blur(60px);
+  opacity: 0.8;
+}
+
+.iphone-mockup .ellipse-7 {
+  position: absolute;
+  width: 54px;
+  height: 71px;
+  top: 663px;
+  left: 351px;
+  background-color: #ff00d6;
+  border-radius: 27px/35.5px;
+  filter: blur(60px);
+  opacity: 0.8;
+}
+
+.iphone-mockup .ellipse-8 {
+  position: absolute;
+  width: 54px;
+  height: 71px;
+  top: 768px;
+  left: 351px;
+  background-color: #ff00d6;
+  border-radius: 27px/35.5px;
+  filter: blur(60px);
+  opacity: 0.8;
+}
+
+.iphone-mockup .ellipse-9 {
+  position: absolute;
+  width: 54px;
+  height: 71px;
+  top: 873px;
+  left: 351px;
+  background-color: #ff00d6;
+  border-radius: 27px/35.5px;
+  filter: blur(60px);
+  opacity: 0.8;
+}
+
+.iphone-mockup .group-41 {
+  position: absolute;
+  width: 376px;
+  height: 93px;
+  top: 337px;
+  left: 29px;
+}
+
+.iphone-mockup .overlap-14 {
+  position: relative;
+  width: 372px;
+  height: 93px;
+  background-image: url(https://c.animaapp.com/qsxN71Zi/img/mask-group-6@2x.png);
+  background-size: 100% 100%;
+}
+
+.iphone-mockup .img-wrapper {
+  position: absolute;
+  width: 63px;
+  height: 59px;
+  top: 17px;
+  left: 283px;
+  background-image: url(https://c.animaapp.com/qsxN71Zi/img/group-11@2x.png);
+  background-size: 100% 100%;
+}
+
+.iphone-mockup .group-42 {
+  position: absolute;
+  width: 53px;
+  height: 49px;
+  top: 5px;
+  left: 5px;
+}
+
+.iphone-mockup .special-doubt {
+  position: absolute;
+  width: 199px;
+  height: 18px;
+  top: 21px;
+  left: 22px;
+}
+
+.iphone-mockup .technical-support {
+  position: absolute;
+  width: 210px;
+  height: 27px;
+  top: 48px;
+  left: 21px;
+}
+
+.iphone-mockup .group-43 {
+  position: absolute;
+  width: 376px;
+  height: 93px;
+  top: 547px;
+  left: 29px;
+}
+
+.iphone-mockup .overlap-group-7 {
+  position: absolute;
+  width: 61px;
+  height: 59px;
+  top: 17px;
+  left: 283px;
+  background-image: url(https://c.animaapp.com/qsxN71Zi/img/group-9.png);
+  background-size: 100% 100%;
+}
+
+.iphone-mockup .group-44 {
+  position: absolute;
+  width: 51px;
+  height: 49px;
+  top: 5px;
+  left: 5px;
+}
+
+.iphone-mockup .expert-mentors {
+  position: absolute;
+  width: 133px;
+  height: 17px;
+  top: 21px;
+  left: 22px;
+}
+
+.iphone-mockup .mentorship-career {
+  position: absolute;
+  width: 201px;
+  height: 27px;
+  top: 48px;
+  left: 22px;
+}
+
+.iphone-mockup .group-45 {
+  position: absolute;
+  width: 376px;
+  height: 93px;
+  top: 757px;
+  left: 29px;
+}
+
+.iphone-mockup .overlap-group-8 {
+  position: absolute;
+  width: 70px;
+  height: 53px;
+  top: 20px;
+  left: 278px;
+  background-image: url(https://c.animaapp.com/qsxN71Zi/img/group-7.png);
+  background-size: 100% 100%;
+}
+
+.iphone-mockup .group-46 {
+  position: absolute;
+  width: 60px;
+  height: 43px;
+  top: 5px;
+  left: 5px;
+}
+
+.iphone-mockup .live-recordings {
+  position: absolute;
+  width: 138px;
+  height: 18px;
+  top: 21px;
+  left: 22px;
+}
+
+.iphone-mockup .refer-to-lectures {
+  position: absolute;
+  width: 148px;
+  height: 27px;
+  top: 48px;
+  left: 22px;
+}
+
+.iphone-mockup .group-47 {
+  position: absolute;
+  width: 376px;
+  height: 93px;
+  top: 862px;
+  left: 29px;
+}
+
+.iphone-mockup .overlap-group-9 {
+  position: absolute;
+  width: 51px;
+  height: 59px;
+  top: 17px;
+  left: 288px;
+  background-image: url(https://c.animaapp.com/qsxN71Zi/img/group-5@2x.png);
+  background-size: 100% 100%;
+}
+
+.iphone-mockup .group-48 {
+  position: absolute;
+  width: 41px;
+  height: 49px;
+  top: 5px;
+  left: 5px;
+}
+
+.iphone-mockup .case-studies {
+  position: absolute;
+  width: 116px;
+  height: 14px;
+  top: 21px;
+  left: 22px;
+}
+
+.iphone-mockup .learn-about {
+  position: absolute;
+  width: 191px;
+  height: 24px;
+  top: 48px;
+  left: 21px;
+}
+
+.iphone-mockup .group-49 {
+  position: absolute;
+  width: 376px;
+  height: 93px;
+  top: 442px;
+  left: 29px;
+}
+
+.iphone-mockup .overlap-group-10 {
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  top: 17px;
+  left: 284px;
+  background-image: url(https://c.animaapp.com/qsxN71Zi/img/group-3.png);
+  background-size: 100% 100%;
+}
+
+.iphone-mockup .group-50 {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  top: 5px;
+  left: 5px;
+}
+
+.iphone-mockup .img-2 {
+  position: absolute;
+  width: 219px;
+  height: 18px;
+  top: 21px;
+  left: 22px;
+}
+
+.iphone-mockup .get-one-on-one {
+  position: absolute;
+  width: 211px;
+  height: 27px;
+  top: 48px;
+  left: 21px;
+}
+
+.iphone-mockup .group-51 {
+  position: absolute;
+  width: 376px;
+  height: 93px;
+  top: 652px;
+  left: 29px;
+}
+
+.iphone-mockup .overlap-group-11 {
+  position: absolute;
+  width: 53px;
+  height: 60px;
+  top: 16px;
+  left: 287px;
+  background-image: url(https://c.animaapp.com/qsxN71Zi/img/group-1@2x.png);
+  background-size: 100% 100%;
+}
+
+.iphone-mockup .group-52 {
+  position: absolute;
+  width: 43px;
+  height: 50px;
+  top: 5px;
+  left: 5px;
+}
+
+.iphone-mockup .we-offer-minor {
+  position: absolute;
+  width: 183px;
+  height: 27px;
+  top: 48px;
+  left: 21px;
+}
+
+.iphone-mockup .group-53 {
+  position: absolute;
+  width: 376px;
+  height: 718px;
+  top: 4700px;
+  left: 29px;
+}
+
+.iphone-mockup .industrial-project {
+  position: absolute;
+  width: 297px;
+  height: 45px;
+  top: 8px;
+  left: 38px;
+}
+
+.iphone-mockup .group-54 {
+  position: absolute;
+  width: 374px;
+  height: 336px;
+  top: 73px;
+  left: 0;
+}
+
+.iphone-mockup .overlap-15 {
+  position: relative;
+  width: 375px;
+  height: 339px;
+  top: -2px;
+  left: -2px;
+  background-color: #ffffff;
+  border-radius: 6.88px;
+  border: 1.72px solid;
+  border-color: #ebebeb;
+  box-shadow: var(--icon-shadow);
+}
+
+.iphone-mockup .overlap-16 {
+  position: absolute;
+  width: 282px;
+  height: 256px;
+  top: 78px;
+  left: 30px;
+}
+
+.iphone-mockup .group-55 {
+  position: absolute;
+  width: 282px;
+  height: 199px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .overlap-group-12 {
+  position: relative;
+  height: 199px;
+}
+
+.iphone-mockup .ellipse-10 {
+  position: absolute;
+  width: 86px;
+  height: 77px;
+  top: 66px;
+  left: 127px;
+  background-color: #f8d310;
+  border-radius: 43px/38.5px;
+  transform: rotate(180deg);
+  filter: blur(120px);
+}
+
+.iphone-mockup .boston-dynamics {
+  position: absolute;
+  width: 282px;
+  height: 199px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.iphone-mockup .group-56 {
+  position: absolute;
+  width: 182px;
+  height: 65px;
+  top: 191px;
+  left: 67px;
+}
+
+.iphone-mockup .group-57 {
+  height: 65px;
+}
+
+.iphone-mockup .overlap-group-13 {
+  position: relative;
+  width: 182px;
+  height: 65px;
+}
+
+.iphone-mockup .image-4 {
+  position: absolute;
+  width: 149px;
+  height: 65px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .image-5 {
+  position: absolute;
+  width: 40px;
+  height: 41px;
+  top: 12px;
+  left: 142px;
+}
+
+.iphone-mockup .create-your-SPOT {
+  position: absolute;
+  width: 207px;
+  height: 48px;
+  top: 20px;
+  left: 22px;
+}
+
+.iphone-mockup .inspired-by-boston {
+  position: absolute;
+  width: 371px;
+  height: 276px;
+  top: 434px;
+  left: 0;
+}
+
+.iphone-mockup .group-58 {
+  position: absolute;
+  width: 448px;
+  height: 431px;
+  top: 5458px;
+  left: -26px;
+}
+
+.iphone-mockup .overlap-17 {
+  position: relative;
+  width: 430px;
+  height: 493px;
+  top: -37px;
+  left: 26px;
+  background-image: url(https://c.animaapp.com/qsxN71Zi/img/mesh@2x.png);
+  background-size: 100% 100%;
+}
+
+.iphone-mockup .group-59 {
+  position: absolute;
+  width: 350px;
+  height: 104px;
+  top: 173px;
+  left: 40px;
+}
+
+.iphone-mockup .overlap-group-14 {
+  position: relative;
+  width: 370px;
+  height: 141px;
+  top: -3px;
+  left: -10px;
+}
+
+.iphone-mockup .image-6 {
+  position: absolute;
+  width: 166px;
+  height: 81px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .image-7 {
+  position: absolute;
+  width: 210px;
+  height: 81px;
+  top: 0;
+  left: 160px;
+}
+
+.iphone-mockup .image-8 {
+  position: absolute;
+  width: 210px;
+  height: 80px;
+  top: 61px;
+  left: 0;
+}
+
+.iphone-mockup .image-9 {
+  position: absolute;
+  width: 166px;
+  height: 80px;
+  top: 61px;
+  left: 204px;
+}
+
+.iphone-mockup .certificates-awarded {
+  position: absolute;
+  width: 325px;
+  height: 82px;
+  top: 56px;
+  left: 53px;
+}
+
+.iphone-mockup .group-60 {
+  position: absolute;
+  width: 372px;
+  height: 135px;
+  top: 333px;
+  left: 29px;
+}
+
+.iphone-mockup .overlap-18 {
+  position: relative;
+  height: 175px;
+  top: -20px;
+}
+
+.iphone-mockup .element-sample {
+  left: 186px;
+  position: absolute;
+  width: 186px;
+  height: 116px;
+  top: 29px;
+  object-fit: cover;
+}
+
+.iphone-mockup .element-roboai-sample {
+  left: 0;
+  position: absolute;
+  width: 186px;
+  height: 116px;
+  top: 29px;
+  object-fit: cover;
+}
+
+.iphone-mockup .roboai-sample {
+  position: absolute;
+  width: 256px;
+  height: 175px;
+  top: 0;
+  left: 68px;
+}
+
+.iphone-mockup .roboai-sample-2 {
+  position: absolute;
+  width: 216px;
+  height: 135px;
+  top: 20px;
+  left: 88px;
+  object-fit: cover;
+}
+
+.iphone-mockup .group-61 {
+  position: absolute;
+  width: 526px;
+  height: 704px;
+  top: 5929px;
+  left: -47px;
+}
+
+.iphone-mockup .previous-stories {
+  position: absolute;
+  width: 286px;
+  height: 34px;
+  top: 8px;
+  left: 119px;
+}
+
+.iphone-mockup .overlap-19 {
+  position: absolute;
+  width: 524px;
+  height: 590px;
+  top: 88px;
+  left: 0;
+}
+
+.iphone-mockup .testi {
+  position: absolute;
+  width: 524px;
+  height: 590px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .overlap-group-15 {
+  position: relative;
+  width: 430px;
+  height: 590px;
+  left: 47px;
+}
+
+.iphone-mockup .IMG {
+  position: absolute;
+  width: 225px;
+  height: 588px;
+  top: 1px;
+  left: 205px;
+  object-fit: cover;
+}
+
+.iphone-mockup .IMG-2 {
+  position: absolute;
+  width: 272px;
+  height: 590px;
+  top: 0;
+  left: 140px;
+}
+
+.iphone-mockup .IMG-3 {
+  position: absolute;
+  width: 225px;
+  height: 588px;
+  top: 1px;
+  left: 0;
+  object-fit: cover;
+}
+
+.iphone-mockup .IMG-4 {
+  position: absolute;
+  width: 273px;
+  height: 588px;
+  top: 2px;
+  left: 18px;
+  object-fit: cover;
+}
+
+.iphone-mockup .IMG-5 {
+  position: absolute;
+  width: 264px;
+  height: 589px;
+  top: 1px;
+  left: 83px;
+  object-fit: cover;
+}
+
+.iphone-mockup .vector-11 {
+  position: absolute;
+  width: 14px;
+  height: 22px;
+  top: 284px;
+  left: 76px;
+}
+
+.iphone-mockup .vector-12 {
+  position: absolute;
+  width: 14px;
+  height: 22px;
+  top: 284px;
+  left: 436px;
+}
+
+.iphone-mockup .ellipse-11 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 696px;
+  left: 231px;
+  background-color: #d9d9d9;
+  border-radius: 4px;
+}
+
+.iphone-mockup .ellipse-12 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 696px;
+  left: 242px;
+  background-color: #d9d9d9;
+  border-radius: 4px;
+}
+
+.iphone-mockup .ellipse-13 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 696px;
+  left: 253px;
+  background-color: #d9d9d9;
+  border-radius: 4px;
+}
+
+.iphone-mockup .ellipse-14 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 696px;
+  left: 285px;
+  background-color: #d9d9d9;
+  border-radius: 4px;
+}
+
+.iphone-mockup .rectangle-3 {
+  position: absolute;
+  width: 18px;
+  height: 8px;
+  top: 696px;
+  left: 264px;
+  background-color: #9b9b9b;
+  border-radius: 14px;
+}
+
+.iphone-mockup .group-62 {
+  position: absolute;
+  width: 374px;
+  height: 580px;
+  top: 6673px;
+  left: 29px;
+}
+
+.iphone-mockup .group-63 {
+  position: absolute;
+  width: 264px;
+  height: 459px;
+  top: 121px;
+  left: 54px;
+  background-color: #ededed;
+}
+
+.iphone-mockup .group-64 {
+  position: absolute;
+  width: 130px;
+  height: 52px;
+  top: 205px;
+  left: 67px;
+}
+
+.iphone-mockup .hear-from-our {
+  position: absolute;
+  width: 188px;
+  height: 72px;
+  top: 13px;
+  left: 93px;
+}
+
+.iphone-mockup .vector-13 {
+  position: absolute;
+  width: 14px;
+  height: 22px;
+  top: 330px;
+  left: 0;
+}
+
+.iphone-mockup .vector-14 {
+  position: absolute;
+  width: 14px;
+  height: 22px;
+  top: 330px;
+  left: 360px;
+}
+
+.iphone-mockup .group-65 {
+  position: absolute;
+  width: 384px;
+  height: 594px;
+  top: 7293px;
+  left: 29px;
+}
+
+.iphone-mockup .FA-qs {
+  position: absolute;
+  width: 117px;
+  height: 34px;
+  top: 8px;
+  left: 128px;
+}
+
+.iphone-mockup .group-66 {
+  position: absolute;
+  width: 386px;
+  height: 215px;
+  top: 91px;
+  left: 0;
+}
+
+.iphone-mockup .overlap-20 {
+  position: relative;
+  width: 384px;
+  height: 217px;
+  top: -2px;
+  left: -2px;
+}
+
+.iphone-mockup .ellipse-15 {
+  position: absolute;
+  width: 59px;
+  height: 54px;
+  top: 11px;
+  left: 325px;
+  background-color: #fe8616;
+  border-radius: 29.5px/27px;
+  transform: rotate(180deg);
+  filter: blur(70px);
+}
+
+.iphone-mockup .group-67 {
+  position: absolute;
+  width: 374px;
+  height: 169px;
+  top: 48px;
+  left: 2px;
+}
+
+.iphone-mockup .our-robopack-wrapper {
+  position: relative;
+  width: 372px;
+  height: 169px;
+  background-color: #ffffff;
+  border-radius: 6.88px;
+  box-shadow: var(--icon-shadow);
+}
+
+.iphone-mockup .our-robopack {
+  position: absolute;
+  width: 328px;
+  height: 100px;
+  top: 42px;
+  left: 20px;
+}
+
+.iphone-mockup .rectangle-4 {
+  position: absolute;
+  width: 375px;
+  height: 63px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 6.88px;
+  border: 1.72px solid;
+  border-color: #ebebeb;
+  box-shadow: var(--icon-shadow);
+}
+
+.iphone-mockup .who-can-participate {
+  position: absolute;
+  width: 268px;
+  height: 36px;
+  top: 16px;
+  left: 22px;
+}
+
+.iphone-mockup .text-wrapper-10 {
+  position: absolute;
+  height: 17px;
+  top: 24px;
+  left: 340px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 800;
+  color: #fe8616;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 0.1px;
+}
+
+.iphone-mockup .group-68 {
+  position: absolute;
+  width: 376px;
+  height: 60px;
+  top: 318px;
+  left: 0;
+}
+
+.iphone-mockup .overlap-21 {
+  position: relative;
+  width: 375px;
+  height: 63px;
+  top: -2px;
+  left: -2px;
+  background-color: #ffffff;
+  border-radius: 6.88px;
+  border: 1.72px solid;
+  border-color: #ebebeb;
+  box-shadow: var(--icon-shadow);
+}
+
+.iphone-mockup .what-materials-and {
+  position: absolute;
+  width: 270px;
+  height: 36px;
+  top: 14px;
+  left: 20px;
+}
+
+.iphone-mockup .text-wrapper-11 {
+  position: absolute;
+  height: 17px;
+  top: 22px;
+  left: 338px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 800;
+  color: #fe8616;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 0.1px;
+}
+
+.iphone-mockup .group-69 {
+  position: absolute;
+  width: 376px;
+  height: 66px;
+  top: 462px;
+  left: 0;
+}
+
+.iphone-mockup .is-there-any-age {
+  position: absolute;
+  width: 236px;
+  height: 36px;
+  top: 14px;
+  left: 21px;
+}
+
+.iphone-mockup .group-70 {
+  position: absolute;
+  width: 376px;
+  height: 60px;
+  top: 390px;
+  left: 0;
+}
+
+.iphone-mockup .what-is-the-duration {
+  position: absolute;
+  width: 209px;
+  height: 36px;
+  top: 14px;
+  left: 20px;
+}
+
+.iphone-mockup .group-71 {
+  position: absolute;
+  width: 376px;
+  height: 60px;
+  top: 534px;
+  left: 0;
+}
+
+.iphone-mockup .how-do-i-register {
+  position: absolute;
+  width: 245px;
+  height: 36px;
+  top: 14px;
+  left: 20px;
+}
+
+.iphone-mockup .group-72 {
+  position: absolute;
+  width: 463px;
+  height: 529px;
+  top: 8053px;
+  left: -1px;
+}
+
+.iphone-mockup .overlap-22 {
+  position: relative;
+  width: 465px;
+  height: 529px;
+}
+
+.iphone-mockup .rectangle-5 {
+  position: absolute;
+  width: 431px;
+  height: 510px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgb(22.67, 22.67, 22.67) 0%, rgb(0, 0, 0) 100%);
+}
+
+.iphone-mockup .myequationtm-is-a {
+  position: absolute;
+  width: 372px;
+  height: 87px;
+  top: 442px;
+  left: 30px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.iphone-mockup .span {
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.iphone-mockup .text-wrapper-12 {
+  text-decoration: underline;
+}
+
+.iphone-mockup .group-73 {
+  position: absolute;
+  width: 374px;
+  height: 116px;
+  top: 40px;
+  left: 30px;
+}
+
+.iphone-mockup .overlap-group-16 {
+  position: relative;
+  width: 372px;
+  height: 116px;
+}
+
+.iphone-mockup .india-s-only-startup {
+  position: absolute;
+  width: 372px;
+  height: 87px;
+  top: 29px;
+  left: 0;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.iphone-mockup .layer-2 {
+  position: absolute;
+  width: 140px;
+  height: 38px;
+  top: 0;
+  left: 0;
+}
+
+.iphone-mockup .group-74 {
+  position: absolute;
+  width: 435px;
+  height: 55px;
+  top: 156px;
+  left: 30px;
+}
+
+.iphone-mockup .overlap-23 {
+  position: relative;
+  width: 431px;
+  height: 55px;
+}
+
+.iphone-mockup .item-link-services {
+  position: absolute;
+  width: 228px;
+  height: 55px;
+  top: 0;
+  left: 0;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: #9f9f9f;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28.8px;
+}
+
+.iphone-mockup .item-link-services-2 {
+  position: absolute;
+  width: 228px;
+  height: 55px;
+  top: 0;
+  left: 203px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: #9f9f9f;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28.8px;
+}
+
+.iphone-mockup .group-75 {
+  position: absolute;
+  width: 374px;
+  height: 57px;
+  top: 298px;
+  left: 30px;
+}
+
+.iphone-mockup .text-wrapper-13 {
+  position: absolute;
+  width: 372px;
+  height: 19px;
+  top: 0;
+  left: 0;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.iphone-mockup .social-media {
+  position: absolute;
+  width: 276px;
+  height: 25px;
+  top: 32px;
+  left: 49px;
+}
+
+.iphone-mockup .only-icons {
+  position: absolute;
+  width: 152px;
+  height: 20px;
+  top: 3px;
+  left: 0;
+}
+
+.iphone-mockup .text-wrapper-14 {
+  position: absolute;
+  top: 0;
+  left: 160px;
+  font-family: "Trip Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18.5px;
+  letter-spacing: 0;
+  line-height: normal;
+}
