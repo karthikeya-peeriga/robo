@@ -518,10 +518,8 @@ header {
 }
 
 .iphone-mockup .group-12 {
-  position: absolute;
   width: 410px;
   height: 218px;
-  top: 66px;
   left: 0;
 }
 
@@ -529,7 +527,7 @@ header {
   position: relative;
   width: 375px;
   height: 221px;
-  top: -2px;
+  top: -16px;
   left: -2px;
   background-color: #ffffff;
   border-radius: 6.88px;
@@ -574,7 +572,7 @@ header {
 }
 
 .iphone-mockup .group-13 {
-  position: absolute;
+  position: relative;
   width: 384px;
   height: 80px;
   top: 0;
@@ -626,11 +624,8 @@ header {
 }
 
 .iphone-mockup .group-15 {
-  position: absolute;
   width: 384px;
   height: 80px;
-  top: 384px;
-  left: 0;
 }
 
 .iphone-mockup .electronics-IOT {
@@ -1665,7 +1660,6 @@ header {
 }
 
 .iphone-mockup .overlap-group-13 {
-  position: relative;
   width: 182px;
   height: 65px;
 }
@@ -2241,11 +2235,8 @@ header {
 }
 
 .iphone-mockup .myequationtm-is-a {
-  position: absolute;
   width: 372px;
   height: 87px;
-  top: 442px;
-  left: 30px;
   font-family: "Manrope", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -2253,6 +2244,10 @@ header {
   text-align: center;
   letter-spacing: 0;
   line-height: 20px;
+}
+
+.btn-link button{
+  color: #000000;
 }
 
 .iphone-mockup .span {
